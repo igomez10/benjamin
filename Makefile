@@ -4,6 +4,8 @@ generate-openapi:
 	openapi-generator-cli generate --input-spec openapi.yaml  \
         --generator-name go \
         --output client \
+		--git-repo-id benjamin \
+		--git-user-id igomez10 \
 		--additional-properties=isGoSubmodule=true \
 		--additional-properties=packageName=client \
 		--additional-properties=structPrefix=true
