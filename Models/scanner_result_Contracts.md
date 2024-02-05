@@ -1,0 +1,9 @@
+# scanner_result_Contracts
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+| **Contract** | [**List**](scanner_result_Contracts_Contract_inner.md) |  | [optional] [default to null] |
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

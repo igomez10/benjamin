@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "go",
+			"label": "go: build package",
+			"command": "build",
+			"args": [
+				"${fileDirname}"
+			],
+			"problemMatcher": [
+				"$go"
+			],
+			"group": "build",
+			"detail": "cd /Users/ignacio/benjamin; go build ${fileDirname}"
+		},
+		{
+			"type": "shell",
+			// make generate-openapi
+			"label": "make: generate-openapi",
+			"command": "make",
+			"args": [
+				"generate-openapi"
+			],
+			"problemMatcher": [],
+		}
+	]
+}
